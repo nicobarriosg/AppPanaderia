@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/inventoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar Inventario"
+        android:backgroundTint="@color/cafe"/>
+
+    <Button
+        android:id="@+id/viewInventoryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inventario"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/cafe"/>
+
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar Pedido"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/cafe"/>
+
+
+    <Button
+        android:id="@+id/viewOrdersButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ver Pedidos"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/cafe"/>
+
+
+</LinearLayout>
